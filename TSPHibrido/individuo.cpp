@@ -7,7 +7,7 @@ individuo individuo::get_melhor(individuo& a)
 	return melhor;
 }
 
-double individuo::distancia_ate(::cidade a, ::cidade b)
+double individuo::distancia_ate(::cidade a, ::cidade b) const
 {
 	double dx = abs(a.x() - b.x());
 	double dy = abs(a.y() - b.y());

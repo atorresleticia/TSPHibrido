@@ -24,7 +24,7 @@ public:
 	~individuo() = default;
 
 	individuo get_melhor(individuo& a);
-	double distancia_ate(cidade a, cidade b);
+	double distancia_ate(cidade a, cidade b) const;
 	double distancia();
 
 	void gera_individuo(const std::vector<cidade> cidades)
