@@ -21,12 +21,42 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="individuo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="populacao.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSPHibrido.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cidade.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCidades.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="individuo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="populacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="TSPHibrido.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cidade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCidades.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
